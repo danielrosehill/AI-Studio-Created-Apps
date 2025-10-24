@@ -1,20 +1,22 @@
-# Gemini Vibe Coding Project Index
+# Gemini Vibe Coding Project Index (AI Studio)
 
 [← Back to Master Index](https://github.com/danielrosehill/Github-Master-Index)
 
 A collection of multimodal AI application prototypes built using Google AI Studio's build functionality. These are experimental "vibe-coded" starters exploring various AI capabilities including vision, audio, video, and text processing.
 
-Feel free to fork, implement, or deploy any of these projects!
+Feel free to fork, implement, or deploy any of these projects!#
+
+----
 
 ## Apps Index
 
 ### Audio Applications
 
-#### Audio Speaker Editor
+## Audio Speaker Editor
 ![Audio](https://img.shields.io/badge/Audio-1DB954?style=flat-square&logo=spotify&logoColor=white)
 ![Speech Processing](https://img.shields.io/badge/Speech-FF6F00?style=flat-square)
 
-*Work in Progress*
+User uploads audio and Gemini identifies unique speakers through diarization. The app can selectively remove speakers by transcribing the audio, identifying specific speaker segments, and concatenating only the desired segments to create a cleaned audio output. An ambitious application combining speaker identification, audio segmentation, and intelligent audio editing.
 
 **Screenshot:**
 
@@ -22,11 +24,11 @@ Feel free to fork, implement, or deploy any of these projects!
 
 ---
 
-#### Echo Scribe
+## EchoScribe
 ![Audio](https://img.shields.io/badge/Audio-1DB954?style=flat-square&logo=spotify&logoColor=white)
 ![Speech Processing](https://img.shields.io/badge/Speech-FF6F00?style=flat-square)
 
-*Work in Progress*
+Speech-to-text-to-text-to-speech (STT-to-TTS) application. User provides a recording which gets transcribed, then an intermediate layer powered by Gemini condenses the message into a more concise form, and finally the condensed text gets synthesized back into speech and presented for playback or recording.
 
 **Screenshot:**
 
@@ -34,11 +36,11 @@ Feel free to fork, implement, or deploy any of these projects!
 
 ---
 
-#### Playlist Curator
+## Playlist Curator
 ![Audio](https://img.shields.io/badge/Audio-1DB954?style=flat-square&logo=spotify&logoColor=white)
 ![Music](https://img.shields.io/badge/Music-00D9FF?style=flat-square)
 
-*Work in Progress*
+User describes their desired music collection or mood using natural language, and the app generates a curated YouTube playlist matching those preferences. Combines natural language understanding with music search and playlist generation.
 
 **Screenshot:**
 
@@ -46,11 +48,11 @@ Feel free to fork, implement, or deploy any of these projects!
 
 ---
 
-#### Voice Analyzer AI
+## Voice Analyzer
 ![Audio](https://img.shields.io/badge/Audio-1DB954?style=flat-square&logo=spotify&logoColor=white)
 ![Speech Processing](https://img.shields.io/badge/Speech-FF6F00?style=flat-square)
 
-Processes and analyzes audio input for voice characteristics, sentiment, and speech patterns.
+User uploads a voice sample or speaks directly into the microphone, and Gemini conducts parametric analysis using its audio processing modality. Analyzes voice characteristics, patterns, and speech attributes.
 
 **Repository:** [danielrosehill/Voice-Analyzer](https://github.com/danielrosehill/Voice-Analyzer)
 
@@ -62,11 +64,12 @@ Processes and analyzes audio input for voice characteristics, sentiment, and spe
 
 ### Text Applications
 
-#### AI Timesheet
+## Timesheet Generator
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
+![Vision](https://img.shields.io/badge/Vision-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Productivity](https://img.shields.io/badge/Productivity-34A853?style=flat-square)
 
-*Work in Progress*
+User provides calendar photos and speech inputs, combining Gemini's vision and audio processing capabilities to automatically generate a comprehensive timesheet document. Extracts schedule information from images and combines it with verbal context to create accurate time tracking records.
 
 **Screenshot:**
 
@@ -74,11 +77,11 @@ Processes and analyzes audio input for voice characteristics, sentiment, and spe
 
 ---
 
-#### Botify
+## Botify
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
 ![Chatbot](https://img.shields.io/badge/Chatbot-9C27B0?style=flat-square)
 
-*Work in Progress*
+A pseudo-AI text generator or "human to AI" converter - the opposite of a humanizer. This playful application takes regular human-written text and transforms it to sound more AI-generated. Created just for fun to explore the boundary between human and AI writing styles.
 
 **Screenshot:**
 
@@ -86,11 +89,11 @@ Processes and analyzes audio input for voice characteristics, sentiment, and spe
 
 ---
 
-#### Career Pivot AI
+## CareerPivot AI
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
 ![Search](https://img.shields.io/badge/Search-EA4335?style=flat-square)
 
-AI-powered career transition assistant that helps users explore new career paths through intelligent text analysis and search capabilities.
+User uploads their resume and Gemini analyzes their background to make intelligent, one-at-a-time suggestions for potential career pivots. Each suggestion is based on the skills and experience demonstrated in their resume, helping users discover new career directions they may not have considered.
 
 **Repository:** [danielrosehill/Career-Pivot-AI](https://github.com/danielrosehill/Career-Pivot-AI)
 
@@ -100,11 +103,11 @@ AI-powered career transition assistant that helps users explore new career paths
 
 ---
 
-#### Movie Recommendations
+## Movie Recommendation Engine
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
 ![Search](https://img.shields.io/badge/Search-EA4335?style=flat-square)
 
-*Work in Progress*
+User describes what they're looking for in entertainment (mood, genre, themes, etc.) and the engine recommends movies and shows matching their preferences. Natural language interface for personalized content discovery.
 
 **Screenshot:**
 
@@ -112,11 +115,12 @@ AI-powered career transition assistant that helps users explore new career paths
 
 ---
 
-#### Notepad
+## Voice Notepad (AudioScribe)
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
+![Audio](https://img.shields.io/badge/Audio-1DB954?style=flat-square&logo=spotify&logoColor=white)
 ![Productivity](https://img.shields.io/badge/Productivity-34A853?style=flat-square)
 
-*Work in Progress*
+A voice recorder, transcriber, and optimizer in one. Records voice input, transcribes it to text, and applies an optimization layer for stylistic or format-based reformatting. Transforms raw voice notes into polished, formatted text documents.
 
 **Screenshot:**
 
@@ -124,11 +128,11 @@ AI-powered career transition assistant that helps users explore new career paths
 
 ---
 
-#### Text to SSML Generator
+## Text to SSML Generator
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
 ![Format Conversion](https://img.shields.io/badge/Format_Conversion-00897B?style=flat-square)
 
-Converts plain text to Speech Synthesis Markup Language (SSML) format for enhanced text-to-speech applications.
+Takes plain text as input and intelligently infers appropriate Speech Synthesis Markup Language (SSML) tags for enhanced text-to-speech output. Automatically adds prosody, emphasis, pauses, and other speech attributes to improve synthetic voice quality.
 
 **Repository:** [danielrosehill/Text-To-SSML-Generator](https://github.com/danielrosehill/Text-To-SSML-Generator)
 
@@ -138,11 +142,11 @@ Converts plain text to Speech Synthesis Markup Language (SSML) format for enhanc
 
 ---
 
-#### Use Case Ideator
+## Multimodal AI Use Case Ideator
 ![Text](https://img.shields.io/badge/Text-FBBC04?style=flat-square&logo=google&logoColor=white)
 ![Brainstorming](https://img.shields.io/badge/Brainstorming-9C27B0?style=flat-square)
 
-*Work in Progress*
+User selects an AI modality (vision, audio, text, etc.) and the app randomly generates creative use case ideas. Helps users think of imaginative new applications for Gemini's multimodal capabilities and sparks innovation for AI application development.
 
 **Screenshot:**
 
@@ -152,11 +156,11 @@ Converts plain text to Speech Synthesis Markup Language (SSML) format for enhanc
 
 ### Video Applications
 
-#### Gemini Body Language Analyst
+## Body Language Analyst
 ![Video](https://img.shields.io/badge/Video-FF0000?style=flat-square&logo=youtube&logoColor=white)
 ![Multimodal](https://img.shields.io/badge/Multimodal-9C27B0?style=flat-square)
 
-Analyzes body language and non-verbal communication from video inputs using Gemini's multimodal capabilities.
+An experimental application testing Gemini's vision processing abilities for analyzing human behavior. User provides an image or video along with context cues, and the app analyzes body language, facial expressions, posture, and non-verbal communication patterns to provide insights into emotional states and interpersonal dynamics.
 
 **Repository:** [danielrosehill/Gemini-Body-Language-Analyst](https://github.com/danielrosehill/Gemini-Body-Language-Analyst)
 
@@ -168,11 +172,11 @@ Analyzes body language and non-verbal communication from video inputs using Gemi
 
 ### Vision Applications
 
-#### AI Room Dimension Estimator
+## Room Dimension Estimator
 ![Vision](https://img.shields.io/badge/Vision-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Image Processing](https://img.shields.io/badge/Image-34A853?style=flat-square)
 
-Analyzes images of rooms to estimate dimensions and spatial measurements using computer vision.
+Another vision processing experiment. User uploads an image of a room and the app analyzes the spatial layout to estimate dimensions. The app generates an annotated image output, overlaying measurement estimates and spatial information directly onto the room photo for easy visualization.
 
 **Repository:** [danielrosehill/AI-Room-Dimension-Estimator](https://github.com/danielrosehill/AI-Room-Dimension-Estimator)
 
@@ -182,11 +186,11 @@ Analyzes images of rooms to estimate dimensions and spatial measurements using c
 
 ---
 
-#### Diagram Enhancer
+## Diagram Enhancer
 ![Vision](https://img.shields.io/badge/Vision-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Image Processing](https://img.shields.io/badge/Image-34A853?style=flat-square)
 
-*Work in Progress*
+Takes rough sketches and hand-drawn diagrams and improves their clarity and presentation while preserving the original handwriting style. Enhances legibility and visual appeal without losing the authentic character of the hand-drawn elements.
 
 **Screenshot:**
 
@@ -194,11 +198,12 @@ Analyzes images of rooms to estimate dimensions and spatial measurements using c
 
 ---
 
-#### Home Inventory
+## Home Inventory Helper
 ![Vision](https://img.shields.io/badge/Vision-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Image Processing](https://img.shields.io/badge/Image-34A853?style=flat-square)
+![Search](https://img.shields.io/badge/Search-EA4335?style=flat-square)
 
-*Work in Progress*
+User uploads a product label photo and the app combines data extraction, OCR (optical character recognition), and web search capabilities. First extracts text and product information from the label, then performs a web lookup to gather additional product details, and finally populates comprehensive inventory listings with all relevant information.
 
 **Screenshot:**
 
@@ -240,6 +245,4 @@ Each individual repository may have its own license. Please check the specific r
 - Website: [danielrosehill.com](https://danielrosehill.com)
 - Email: public@danielrosehill.com
 
----
-
-*Last updated: October 2024*
+#
