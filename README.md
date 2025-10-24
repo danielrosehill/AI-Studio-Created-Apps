@@ -1,4 +1,6 @@
-# Gemini Vibe Coding Projects
+# Gemini Vibe Coding Project Index
+
+[← Back to Master Index](https://github.com/danielrosehill/Github-Master-Index)
 
 A collection of multimodal AI application prototypes built using Google AI Studio's build functionality. These are experimental "vibe-coded" starters exploring various AI capabilities including vision, audio, video, and text processing.
 
@@ -210,12 +212,15 @@ These projects were built using [Google AI Studio](https://ai.google.dev/aistudi
 
 ## Modality Legend
 
-- **Vision** 👁️ - Image analysis and computer vision
-- **Audio** 🎵 - Audio processing and speech analysis
-- **Video** 📹 - Video analysis and processing
-- **Text** 📝 - Text processing and generation
-- **Search** 🔍 - Search and information retrieval
-- **Multimodal** 🎭 - Multiple input types combined
+| Modality | Description | Use Case(s) |
+|----------|-------------|-------------|
+| Vision (Image to Text) | Analyzes images to extract information, measurements, or understanding through computer vision | Room dimension estimation, diagram analysis, object identification, visual inventory management |
+| Audio to Text | Processes audio inputs to transcribe speech and analyze voice characteristics | Voice transcription, speaker identification, audio editing, voice pattern analysis |
+| Audio Generation | Creates or curates audio content including music playlists | Music curation, playlist generation |
+| Video (Video to Text) | Analyzes video content to extract insights about movement, behavior, and visual information | Body language analysis, gesture recognition, video content understanding |
+| Text to Text | Processes and generates text for various applications | Career guidance, brainstorming, chatbots, note-taking, movie recommendations, timesheet management |
+| Text to SSML | Converts plain text into Speech Synthesis Markup Language for enhanced text-to-speech | Voice application development, accessibility features, podcast production |
+| Text + Search | Combines text processing with information retrieval capabilities | Career exploration, movie discovery, research assistance |
 
 ## Contributing
 
