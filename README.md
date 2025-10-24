@@ -1,4 +1,4 @@
-# AI Studio Created Apps
+# Gemini Vibe Coding Projects
 
 A collection of multimodal AI application prototypes built using Google AI Studio's build functionality. These are experimental "vibe-coded" starters exploring various AI capabilities including vision, audio, video, and text processing.
 
